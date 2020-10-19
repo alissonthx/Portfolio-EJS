@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+    </head>
+    <body>
+        <main>
+            <h1><%= title %></h1>
+            <p>Bem vindo(a) ao <strong><%= title %></strong></p>
+            <strong><%= name %></strong>
+            <p><%= profession %></p>
+            <p><%= description %></p>
+            <ul>
+                <% experience.map(experience => { %>
+                    <li>
+                        <div>
+                            <strong><%= experience.campany %>:</strong>
+                            <strong><%= experience.office %>:</strong>
+                            <br>
+                            <span><%= experience.description %></span>
+                        </div>
+                    </li>
+            <% }); %>
+            </ul>
+            <ul>
+                <% education.map(education => { %>
+                    <li>
+                        <div>
+                            <strong><%= education.instrution %></strong>
+                            <br>
+                            <span><%= education.description</span>
+                        </div>
+                    </li>
+                <% }); %>
+            </ul>
+            <ul>
+                <%skills.map(skill => { %>
+                    <li><%= skill %></li>
+                <%}); %>
+            </ul>
+        </main>
+    </body>
+</html>
