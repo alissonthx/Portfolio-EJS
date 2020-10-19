@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node_modules/nodemon/bin/nodemon.js app"
+    "dev": "node_modules/nodemon/bin/nodemon.js app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
