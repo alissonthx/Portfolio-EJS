@@ -1,1 +1,1 @@
-Portifolio usando javascript com node Js e upando num servidor Express JS
+Portifolio Using Javascrip, HTML, Node Js and Express Server.
