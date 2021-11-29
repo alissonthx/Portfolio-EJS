@@ -1,28 +1,28 @@
 {
-  "name": "portifolio-web",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node_modules/nodemon/bin/nodemon.js app",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alissonthx/Portifolio-web.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alissonthx/Portifolio-web/issues"
-  },
-  "homepage": "https://github.com/alissonthx/Portifolio-web#readme",
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.5"
-  },
-  "description": ""
+    "name": "portifolio-web",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node_modules/nodemon/bin/nodemon.js app",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alissonthx/Portifolio-web.git"
+    },
+    "keywords": [],
+    "author": "Alisson",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alissonthx/Portifolio-web/issues"
+    },
+    "homepage": "https://github.com/alissonthx/Portifolio-web#readme",
+    "dependencies": {
+        "ejs": "^3.1.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.5"
+    },
+    "description": "Portifolio Using Javascrip, HTML, Node Js and Express Server."
 }
