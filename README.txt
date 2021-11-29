@@ -6,11 +6,11 @@ npm install --save express
 adicionando pasta node modules ao gitignore:
 echo "node_modules" >> .gitignore
 
-startantdo a aplicação do server Express:
+startando a aplicação do server Express:
 node app
 
 Instalando Ejs:
 npm install --save ejs
 
-automatizando Express server:
+Para não precisar restartar Express server:
 npm install --save-dev nodemon
