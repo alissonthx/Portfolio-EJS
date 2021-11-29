@@ -18,11 +18,11 @@
     },
     "homepage": "https://github.com/alissonthx/Portifolio-web#readme",
     "dependencies": {
-        "ejs": "^3.1.5",
+        "ejs": "^3.1.6",
         "express": "^4.17.1"
     },
     "devDependencies": {
-        "nodemon": "^2.0.5"
+        "nodemon": "^2.0.15"
     },
     "description": "Portifolio Using Javascrip, HTML, Node Js and Express Server."
 }
