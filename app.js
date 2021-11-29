@@ -23,7 +23,7 @@ app.get("/curriculo", (req, res, next) => {
         ],
         education: [
             {
-                instruction: "Feitep",
+                institution: "Feitep",
                 description: "Engenharia elétrica (Trancado)",
             },
         ],
