@@ -19,7 +19,8 @@
     "homepage": "https://github.com/alissonthx/Portifolio-web#readme",
     "dependencies": {
         "ejs": "^3.1.6",
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "http-errors": "^1.8.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.15"
