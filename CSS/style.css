@@ -1,3 +1,10 @@
 .body {
     margin: 0 auto;
+    color: white;
+}
+.main-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

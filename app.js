@@ -6,6 +6,9 @@ const path = require("path");
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
+//for server css
+app.use(express.static("public"));
+
 app.get("/curriculo", (req, res, next) => {
     res.render("curriculo", {
         title: "Meu currículo",
