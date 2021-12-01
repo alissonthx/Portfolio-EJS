@@ -12,24 +12,24 @@ app.get("/curriculo", (req, res, next) => {
     res.render("curriculo", {
         title: "Meu currículo",
         name: "Álisson Miquelace",
-        profession: "Auxiliar de T.I.",
+        profession: "Desenvolvedor Web, focado em frontend.",
         description:
-            "Auxiliar de tecnologia da informação com experiencia windows e linux",
+            "Desenvolvedor Web",
         experience: [
             {
-                company: "Unifcv",
-                office: "Auxiliar de T.I.",
+                company: "UniFCV",
+                office: "Desenvolvedor Web",
                 description:
-                    "Trabalho dando suporte aos usuarios docentes, colaboradores e alunos.",
+                    "Desenvolvimento web, focado em sistemas php, manutenção a páginas wordpress e outros projetos de Js e afins.",
             },
         ],
         education: [
             {
-                institution: "Feitep",
-                description: "Engenharia elétrica (Trancado)",
+                institution: "Unicesumar",
+                description: "Análise e Desenvolvimento de Sistemas",
             },
         ],
-        skills: ["Javascript", "Node Js", "HTML5", "CSS"],
+        skills: ["Javascript", "Node Js", "HTML5", "CSS", "PHP"],
     });
 });
 
@@ -53,7 +53,6 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     res.locals.message = err.message;
     res.locals.error = req.app.get("env") === "development" ? err : {};
-
     res.status(err.status || 500);
-    res.render("error");
+    res.render("error");    
 });
