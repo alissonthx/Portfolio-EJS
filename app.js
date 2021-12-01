@@ -29,7 +29,7 @@ app.get("/curriculo", (req, res, next) => {
                 description: "Análise e Desenvolvimento de Sistemas",
             },
         ],
-        skills: ["Javascript", "Node Js", "HTML5", "CSS", "PHP"],
+        skills: ["HTML5", "CSS", "PHP", "Javascript", "Node Js"],
     });
 });
 
