@@ -36,7 +36,7 @@ app.get("/curriculo", (req, res, next) => {
 app.get("/", function (req, res, next) {
     res.render("index", {
         title: "My First Express Server",
-        version: "0.0.0",
+        version: "1.0.0",
     });
 });
 
