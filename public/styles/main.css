@@ -1,28 +1,33 @@
 body {
-    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
-    line-height: 2;
-    color: white;
-    background-color: #060239;
+  font: 18px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  line-height: 2;
+  color: white;
+  background-color: black;
 }
-a{
-    color: white;
+.copy {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
 }
 .btn-1 {
-    color: white;        
-    background-color: rgb(65, 16, 129);
+  color: white;
+  background-color: rgb(65, 16, 129);
 }
-.version{
-    margin: 0 auto;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    position: fixed;    
-    right: 30px;
-    bottom: 0px;
-    color: rgb(115, 0, 182);    
+.version {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  position: fixed;
+  right: 30px;
+  bottom: 0px;
+  color: rgb(115, 0, 182);
 }
-.flex-container{
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.flex-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
