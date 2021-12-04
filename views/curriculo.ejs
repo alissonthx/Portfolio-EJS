@@ -17,13 +17,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/main.css" />
-  </head>
-  <header>
     <title><%= title %></title>
-  </header>
-
+  </head>
   <body>
-    <main class="flex-container">
+    <header>
       <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/curriculo"
@@ -32,7 +29,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/curriculo"
-            >Home</a
+            >CV</a
           >
         </li>
         <li class="nav-item">
@@ -45,39 +42,52 @@
           >
         </li>
       </ul>
-
-      <p>Bem vindo(a) ao <strong><%= title %></strong></p>
-      <strong><%= name %></strong>
-      <p><%= profession %></p>
-      <p><%= description %></p>
-      <ul>
-        <% experience.map(experience => { %>
-        <li>
-          <div>
-            <strong><%= experience.company %>:</strong>
-            <strong><%= experience.office %>:</strong>
-            <br />
-            <span><%= experience.description %></span>
-          </div>
-        </li>
-        <% }); %>
-      </ul>
-      <ul>
-        <% education.map(education => { %>
-        <li>
-          <div>
-            <strong><%= education.institution %></strong>
-            <br />
-            <span><%= education.description %></span>
-          </div>
-        </li>
-        <% }); %>
-      </ul>
-      <ul>
-        <%skills.map(skill => { %>
-        <li><%= skill %></li>
-        <% }); %>
-      </ul>
+    </header>
+    <main class="grid-container">
+      <div>
+        <h1>Welcome to <strong><%= title %></strong></h1>
+      </div>
+      <div class="grid-1">
+        <strong><%= name %></strong>
+        <p><%= profession %></p>
+      </div>
+      <div class="grid-2">
+        <p><%= description %></p>
+      </div>
+      <div class="grid-3">
+        <ul>
+          <% experience.map(experience => { %>
+          <li>
+            <div>
+              <strong><%= experience.company %>:</strong>
+              <strong><%= experience.office %>:</strong>
+              <br />
+              <span><%= experience.description %></span>
+            </div>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+      <div class="grid-4">
+        <ul>
+          <% education.map(education => { %>
+          <li>
+            <div>
+              <strong><%= education.institution %></strong>
+              <br />
+              <span><%= education.description %></span>
+            </div>
+          </li>
+          <% }); %>
+        </ul>
+      </div>
+      <div class="grid-5">
+        <ul>
+          <%skills.map(skill => { %>
+          <li><%= skill %></li>
+          <% }); %>
+        </ul>
+      </div>
     </main>
     <footer class="copy" style="text-align: center">
       <span>©2021 by Álisson Marques Miquelace.</span>

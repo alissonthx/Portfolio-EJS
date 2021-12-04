@@ -13,11 +13,11 @@ app.get('/curriculo', (req, res, next) => {
     title: 'My Portfolio',
     name: 'Álisson Miquelace',
     profession: 'Web Developer.',
-    description: 'Web Developer',
+    description: 'Web Developer, focus on front end development.',
     experience: [
       {
         company: 'UniFCV',
-        office: 'Developer Web PHP',
+        office: 'Web Developer',
         description: 'Working with wordpress, PHP, HTML5, CSS, JS'
       }
     ],

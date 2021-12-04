@@ -4,13 +4,13 @@ body {
   color: white;
   background-color: black;
 }
-.copy {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  vertical-align: baseline;
-  background: transparent;
+header {
+  padding: 10px;
+  justify-content: space-between;
+}
+h1 {
+  padding: 10px;
+  text-align: center;
 }
 .btn-1 {
   color: white;
@@ -24,10 +24,58 @@ body {
   position: fixed;
   right: 30px;
   bottom: 0px;
-  color: rgb(115, 0, 182);
+  color: #0d6efd;
 }
-.flex-container {
-  display: grid;
+.grid-container {
   justify-content: center;
   align-items: center;
+}
+.grid-1 {
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  padding: 200px;
+  height: 100%;
+  background-color: #2c3e50;
+}
+.grid-2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px;
+  display: grid;
+  padding: 200px;
+  height: 100%;
+  background-color: #2c3e50;
+}
+.grid-3 {
+  margin: 0 auto;
+  display: grid;
+  padding: 200px;
+  padding: 200px;
+  height: 100%;
+  background-color: #2c3e50;
+}
+.grid-4 {
+  margin: 0 auto;
+  display: grid;
+  padding: 200px;
+  padding: 200px;
+  height: 100%;
+  background-color: #2c3e50;
+}
+.grid-5 {
+  margin: 0 auto;
+  display: flex;
+  padding: 200px;
+  height: 100%;
+  background-color: #2c3e50;
+}
+.copy {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
 }
