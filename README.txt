@@ -1,4 +1,4 @@
-Portifolio Using Javascrip, HTML, Node Js and Express Server.
+Portifolio usando Javascrip, HTML, Ejs, e Express Server.
 
 Instalando express js server:
 npm install --save express
