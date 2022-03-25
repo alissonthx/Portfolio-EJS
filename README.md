@@ -1,4 +1,6 @@
-<h1 align="center">Portifolio usando Javascrip, HTML, Ejs, e Express Server.</h1>
+<h1 align="center">Portifólio base</h1>
+<p align="center">Portifólio usando Javascrip, HTML, Ejs, e Express Server.</p>
+
 
 <h2>Como rodar o projeto?<h2>
 
