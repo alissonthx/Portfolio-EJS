@@ -1,14 +1,13 @@
 <h1 align="center">Portifólio base</h1>
-<h4 align="center">Portifólio usando Javascrip, HTML, Ejs, e Express Server.</h4>
+<p align="center">Portifólio usando Javascrip, HTML, Ejs, e Express Server.</h4>
 
 
 <h2>Como rodar o projeto?<h2>
 
-<h4>De inicio será necessário instalar por npm o express Js server</h4>
-<h4>Execute o comando caso via npm:</h4>
+<h4>De inicio será necessário instalar por npm o express Js server, execute os comandos caso via npm:</h4>
 <p>npm install --save express<p>
 
-<h3>Adicione pasta node modules ao gitignore:</h4>
+<h4>Adicione pasta node modules ao gitignore:</h4>
 <p>echo "node_modules" >> .gitignore<p>
 
 <h4>Startando o server Express </h4>
