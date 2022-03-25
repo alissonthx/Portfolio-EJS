@@ -4,7 +4,7 @@
 # 🚀 Tecnologias Utilizadas
 <ul>
  <li>
-Javascrip
+Javascript
   </li>
  <li>
 HTML
