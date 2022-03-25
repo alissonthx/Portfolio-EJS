@@ -1,5 +1,5 @@
 <h1 align="center">Portifólio base</h1>
-<p align="center">Portifólio usando Javascrip, HTML, Ejs, e Express Server.</h4>
+<p align="center">Portifólio base para estudo.</h4>
 
 🚀 Tecnologias Utilizadas
 <ul>
