@@ -1,16 +1,23 @@
-Portifolio usando Javascrip, HTML, Ejs, e Express Server.
+<h1 align="center">Portifolio usando Javascrip, HTML, Ejs, e Express Server.</h1>
 
-Instalando express js server:
-npm install --save express
+<h2>Como rodar o projeto?<h2>
 
-adicionando pasta node modules ao gitignore:
-echo "node_modules" >> .gitignore
+<p>De inicio será necessário instalar por npm o express Js server<p>
+<p>Execute o comando caso via npm:<p>
+<p>npm install --save express<p>
 
-startando a aplicação do server Express:
-node app
+<p>adicione pasta node modules ao gitignore:<p>
+<p>echo "node_modules" >> .gitignore<p>
 
-Instalando Ejs:
-npm install --save ejs
+<p>startando a aplicação do server Express:<p>
+<p>node app<p>
 
-Para não precisar restartar Express server:
-npm install --save-dev nodemon
+<p>Instalando Ejs template de javascript:<p>
+<p>npm install --save ejs<p>
+
+<p>Para não precisar restartar o Express server para debugar alterações:<p>
+<p>npm install --save-dev nodemon<p>
+
+<h4 align="center"> 
+ 🚀 Concluído
+</h4>
