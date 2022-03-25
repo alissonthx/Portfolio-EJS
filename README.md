@@ -6,7 +6,7 @@
 
 <h4>De inicio será necessário instalar por npm o express Js server</h4>
 <h4>Execute o comando caso via npm:</h4>
-<p>npm install --save express<p>
+<p color="#008000">npm install --save express<p>
 
 <h3>Adicione pasta node modules ao gitignore:</h4>
 <p>echo "node_modules" >> .gitignore<p>
