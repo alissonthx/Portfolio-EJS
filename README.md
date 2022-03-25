@@ -1,6 +1,21 @@
 <h1 align="center">Portifólio base</h1>
 <p align="center">Portifólio usando Javascrip, HTML, Ejs, e Express Server.</h4>
 
+🚀 Tecnologias Utilizadas
+<ul>
+ <li>
+Javascrip
+  </li>
+ <li>
+HTML
+  </li>
+ <li>
+Ejs
+ </li>
+ <li>
+Express Server
+ </li>
+<u>
 <h2>Como rodar o projeto?<h2>
 
 <h3>De inicio será necessário instalar por npm o express Js server, execute os comandos caso via npm:</h3>
