@@ -17,9 +17,10 @@ Express Server
  </li>
 <u>
 <h2>Como rodar o projeto?<h2>
+<p> De inicio será necessário executar alguns comandos via terminal para instalar e inicializar a aplicação por completo.</p>
 
 ```bash
-# De inicio será necessário instalar por npm o express Js server, execute os comandos caso via npm:
+# Instalar por npm o express Js server, executando no terminal:
 $ npm install --save express
  
 # Adicione pasta node modules ao gitignore:
