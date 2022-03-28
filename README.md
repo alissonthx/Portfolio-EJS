@@ -10,6 +10,9 @@ Javascript
 HTML
   </li>
  <li>
+CSS
+  </li>
+ <li>
 Ejs
  </li>
  <li>
