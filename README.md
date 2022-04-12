@@ -1,5 +1,5 @@
-<h1 align="center">Portifólio base</h1>
-<p align="center">Portifólio base para estudo.</h4>
+<h1 align="center">Portfólio base</h1>
+<p align="center">Portfólio base para estudo.</h4>
 
 # 🚀 Tecnologias Utilizadas
 <ul>
